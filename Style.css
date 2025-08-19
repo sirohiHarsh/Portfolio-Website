@@ -53,3 +53,12 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
 }
+.section-card {
+    background-color: var(--card-bg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #334155; /* Slate 700 */
+}
+.section-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
