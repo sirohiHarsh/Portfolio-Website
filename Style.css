@@ -74,3 +74,19 @@ body {
 .typed-cursor {
     color: var(--primary-color);
 }
+.certificate-card {
+    background-color: var(--card-bg);
+    border: 1px solid #334155;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+.certificate-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+.certificate-caption {
+    flex-grow: 1;
+}
