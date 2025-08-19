@@ -71,3 +71,6 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+.typed-cursor {
+    color: var(--primary-color);
+}
